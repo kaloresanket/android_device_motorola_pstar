@@ -113,6 +113,8 @@
     <!-- Defines the sysfs attribute path used by the device
          to enable/disable DC dimming. -->
     <string name="config_deviceDcDimmingSysfsNode">/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure</string>
+    <string name="node_antiflicker_switch_true">1</string>
+    <string name="node_antiflicker_switch_false">0</string>
 
     <!-- default refresh rate in the zone defined by birghtness and ambient thresholds -->
     <integer name="config_defaultRefreshRateInZone">120</integer>
