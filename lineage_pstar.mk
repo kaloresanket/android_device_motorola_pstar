@@ -16,6 +16,10 @@ $(call inherit-product, device/motorola/pstar/device.mk)
 
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+WITH_GMS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_pstar
