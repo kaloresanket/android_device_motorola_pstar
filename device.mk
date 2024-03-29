@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
-    bluetooth.device.default_name=edge 20 pro
+    bluetooth.device.default_name=Motorola Edge 20 Pro
 
 # Call recording
 PRODUCT_PACKAGES += \
