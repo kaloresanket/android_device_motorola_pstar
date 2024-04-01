@@ -159,6 +159,6 @@
     <item name="modem.controller.idle">1</item>
     <item name="modem.controller.rx">10</item>
     <item name="modem.controller.tx">16</item>
-    <item name="modem.controller.voltage">37	00</item>
+    <item name="modem.controller.voltage">3700</item>
     <item name="bluetooth.controller.voltage">3700</item>
 </device>
