@@ -18,7 +18,7 @@ $(call inherit-product, device/motorola/pstar/device.mk)
 PRODUCT_NAME := lineage_pstar
 PRODUCT_DEVICE := pstar
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := motorola edge 20 pro
+PRODUCT_MODEL := Motorola Edge 20 Pro
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_SYSTEM_NAME := pstar_retail
