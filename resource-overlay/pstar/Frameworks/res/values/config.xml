@@ -73,8 +73,8 @@
         <item>59</item>
         <item>82</item>
         <item>102</item>
-        <item>138</item>
-        <item>255</item>
+        <item>192</item>
+		<item>500</item>
     </integer-array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -194,4 +194,7 @@
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+	
+	<!-- Flag indicating whether we should enable the adaptive sleep.-->
+    <bool name="config_adaptive_sleep_available">true</bool>
 </resources>

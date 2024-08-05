@@ -14,18 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from pstar device
 $(call inherit-product, device/motorola/pstar/device.mk)
 
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_pstar
 PRODUCT_DEVICE := pstar
-PRODUCT_BRAND := Motorola
-PRODUCT_MODEL := Motorola Edge 20 Pro
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_BRAND := motorola
+PRODUCT_MODEL := motorola edge 20 pro
+PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_SYSTEM_NAME := pstar_retail
 
@@ -34,3 +28,14 @@ BUILD_FINGERPRINT := "motorola/pstar_retail/pstar:13/T1RAS33.55-15-16-5/d9def9-6
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="pstar_retail-user 13 T1RAS33.55-15-16-5 d9def9-6b8134 release-keys" \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
+
+#Rising Flags
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USE_GOOGLE_TELEPHONY := true
