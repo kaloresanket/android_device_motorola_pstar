@@ -18,7 +18,7 @@ $(call inherit-product, device/motorola/pstar/device.mk)
 PRODUCT_NAME := lineage_pstar
 PRODUCT_DEVICE := pstar
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Motorola Edge 20 Pro
+PRODUCT_MODEL := Edge 20 Pro
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_SYSTEM_NAME := pstar_retail
@@ -29,7 +29,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="pstar_retail-user 13 T1RAS33.55-15-16-5 d9def9-6b8134 release-keys" \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
-#Rising Flags
+#Extra Flags
 TARGET_SUPPORTS_CALL_RECORDING := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
