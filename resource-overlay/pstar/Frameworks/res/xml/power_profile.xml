@@ -12,6 +12,8 @@
     <item name="gps.on">47.4</item>
     <item name="radio.active">237.8</item>
     <item name="radio.scanning">45</item>
+    <item name="dsp.audio">24</item> <!-- ~10mA -->
+    <item name="dsp.video">63</item> <!-- ~50mA -->
     <array name="radio.on">
         <value>38.8</value>
         <value>35</value>
@@ -151,13 +153,41 @@
     </array>
     <item name="cpu.idle">11.5</item>
     <item name="cpu.awake">8.7</item>
+    <item name="cpu.suspend">7.85</item>
     <array name="memory.bandwidths">
         <value>20</value>
     </array>
     <item name="battery.capacity">4500</item>
-    <item name="modem.controller.idle">5</item>
-    <item name="modem.controller.rx">130</item>
-    <item name="modem.controller.tx">160</item>
+    <item name="modem.controller.idle">0</item>
+    <item name="modem.controller.rx">0</item>
+    <item name="modem.controller.sleep">0</item>
+    <array name="modem.controller.tx">
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+        <value>0</value>
+    </array>
     <item name="modem.controller.voltage">3700</item>
+    <item name="wifi.controller.idle">1</item>
+    <item name="wifi.controller.rx">152</item>
+    <item name="wifi.controller.tx">190</item>
+    <array name="wifi.controller.tx_levels">1 <!-- mA -->
+    </array>
+    <item name="wifi.controller.voltage">3700</item>
+    <array name="wifi.batchedscan"> <!-- mA -->
+        <value>.0001</value> <!-- 1-8/hr -->
+        <value>.001</value>  <!-- 9-64/hr -->
+        <value>.01</value>   <!-- 65-512/hr -->
+        <value>.1</value>    <!-- 513-4,096/hr -->
+        <value>1</value>     <!-- 4097-/hr -->
+    </array>
+    <item name="bluetooth.active">135</item> <!-- Bluetooth data transfer, ~56mA -->
+    <item name="bluetooth.on">0.6</item>  <!-- Bluetooth on & connectable, but not connected, ~0.1mA -->
     <item name="bluetooth.controller.voltage">3700</item>
+    <array name="gps.signalqualitybased">
+        <value>0</value>
+        <value>0</value>
+    </array>
+    <item name="gps.voltage">0</item>
 </device>
