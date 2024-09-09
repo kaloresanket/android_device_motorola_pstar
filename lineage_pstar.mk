@@ -17,9 +17,9 @@ $(call inherit-product, device/motorola/pstar/device.mk)
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_pstar
 PRODUCT_DEVICE := pstar
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Edge 20 Pro
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MANUFACTURER := Motorola
 
 PRODUCT_SYSTEM_NAME := pstar_retail
 
