@@ -24,13 +24,8 @@ namespace_imports = [
     'vendor/qcom/opensource/display',
 ]
 
-libs_remove = (
-    'libqti-perfd-client',
-)
-
 lib_fixups: lib_fixups_user_type = {
     libs_proto_3_9_1: lib_fixup_vendorcompat,
-    libs_remove: lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
