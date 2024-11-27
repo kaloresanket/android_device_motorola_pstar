@@ -8,7 +8,6 @@ from extract_utils.fixups_blob import (
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
-    lib_fixup_remove,
     lib_fixup_vendorcompat,
     lib_fixups_user_type,
     libs_proto_3_9_1,
